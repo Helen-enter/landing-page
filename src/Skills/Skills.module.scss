@@ -1,0 +1,29 @@
+.skillsBlock {
+  height: 100vh;
+  background-color: #3b3b3b;
+
+  .skillsContainer {
+    align-items: center;
+    justify-content: flex-start;
+
+    .title {
+      right: 0;
+      left: 0;
+      margin: auto;
+      margin-top: 120px;
+      color: white;
+      font-family: 'Source Code Pro', monospace;
+      font-size: 45px;
+      @media screen and (max-width: 770px) {
+        margin-top: 100px;
+      }
+    }
+
+    .skills {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+  }
+}

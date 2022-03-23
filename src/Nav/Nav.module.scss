@@ -1,0 +1,31 @@
+.nav {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 530px) {
+    width: 330px;
+  }
+  @media screen and (max-width: 350px) {
+    width: 280px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    @media screen and (max-width: 530px) {
+      font-weight: 400;
+      font-size: 15px;
+    }
+    @media screen and (max-width: 350px) {
+      font-weight: 400;
+      font-size: 13px;
+    }
+  }
+
+  a:hover {
+    color: #00ffb5;
+  }
+}

@@ -1,0 +1,41 @@
+.workBlock {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  margin: 10px;
+  @media screen and (max-width: 570px) {
+    width: 350px;
+  }
+
+  .button {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 150px;
+    width: 130px;
+    height: 50px;
+    color: white;
+    background-color: #2700ff;
+    border: none;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #002ba8;
+      cursor: pointer;
+      width: 140px;
+      height: 53px;
+    }
+  }
+}
+
+.description {
+  color: #aaaaaa;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  @media screen and (max-width: 1305px) {
+    opacity: 0;
+  }
+}

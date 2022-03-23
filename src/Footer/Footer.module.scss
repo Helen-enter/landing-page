@@ -1,0 +1,49 @@
+.footerBlock {
+  background-color: #020312;
+  color: white;
+
+  .footerContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    h3 {
+      font-family: "Source Code Pro", monospace;
+      font-size: 45px;
+    }
+  }
+
+  .table {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 80%;
+    @media screen and (max-width: 660px) {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      font-size: 14px;
+    }
+
+    li {
+      background-color: #020312;
+      width: 50px;
+      height: 50px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      cursor: pointer;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "Source Code Pro", monospace;
+
+        &:hover {
+          color: #00ffb5;
+        }
+      }
+    }
+  }
+}

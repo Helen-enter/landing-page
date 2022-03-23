@@ -1,0 +1,28 @@
+.myWorksBlock {
+  height: 115vh;
+  background-color: #3b3b3b;
+
+  .title {
+
+    h2 {
+      text-align: center;
+      font-family: "Source Code Pro", monospace;
+      font-size: 45px;
+      color: white;
+      @media screen and (max-width: 750px) {
+      margin-top: 300px;
+      }
+      @media screen and (max-width: 770px) {
+        font-size: 30px;
+      }
+    }
+
+    .works {
+      width: 80%;
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+  }
+}
